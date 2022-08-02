@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.rectangle {
+    position: absolute;
+    height: 55px;
+    left: 0px;
+    top:0px;
+    background-color: #F55A5A;
+    height: 55px;
+    width: 550px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
+.globe-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: 213px;
+}
+
+.globe-texte {
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 244px;
+    top: 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color:white;
+    height: 16px;
+    border-radius: nullpx;
+
+}
+/* add */
+.cadres-list{ 
+    display: flex;
+    max-width: 478px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 45px;
+}
+
+/* add */
+.cadre{
+    position: relative;
+    width: 478px;
+    height: 168px;
+    margin-top: 36px;
+}
+
+.image {
+    position: absolute;
+    width: 125px;
+    height: 168px;
+    left: 40px;
+    top: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.image-pos {
+    position: absolute;
+    width: 7px;
+    height: 9.55px;
+    left: 184px;
+    top: 120px;
+    background-color: #DADADA;
+
+}
+
+.cadre-location {
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    left: 195px;
+    top: 119px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color:#2B283A;
+}
+
+.cadre-map {
+    position: absolute;
+    width: 106px;
+    height: 13px;
+    right:0;
+    top: 119px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B; 
+}
+
+.cadre-title {
+    position: absolute;
+    width: 326px;
+    height: 40px;
+    left: 184px;
+    top: 136px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.Date {
+    position: absolute;
+    width: 319px;
+    height: 11px;
+    left: 184px;
+    top: 183px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.cadre-description {
+    position: absolute;
+    width: 326px;
+    height: 45px;
+    left: 184px;
+    top: 203px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
